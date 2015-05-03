@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMA.ResaTiama.Common", "Production\TMA.ResaTiama.Common\TMA.ResaTiama.Common.csproj", "{E348AEBA-438B-405B-83C7-C615EDF0DDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMA.ResaTiama.Core", "Production\TMA.ResaTiama.Core\TMA.ResaTiama.Core.csproj", "{E5AB7A68-91CA-4C1E-86F7-C923D573C6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResaTiama", "Production\ResaTiama\ResaTiama.csproj", "{865011D1-FFD4-4824-B2C1-C3850E4F24B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMA.ResaTiama.Data", "Production\TMA.ResaTiama.Data\TMA.ResaTiama.Data.csproj", "{3EB0825D-A69B-4B10-AB8A-A4C8180C3A8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0532DED2-432C-4E3E-8F5D-5D0EA337562D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Métier", "Métier", "{E11AF76F-63BC-4F2C-A60C-CC381A9675FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{24A7A911-3D50-43E7-A5EA-E22213D6F0B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1102916F-A0A2-45D6-A75A-B39A0E388445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResaTiama.Tests", "Tests\ResaTiama.Tests\ResaTiama.Tests.csproj", "{94DD07FF-548F-4D35-B14C-F9F2B997A24E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E348AEBA-438B-405B-83C7-C615EDF0DDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E348AEBA-438B-405B-83C7-C615EDF0DDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E348AEBA-438B-405B-83C7-C615EDF0DDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E348AEBA-438B-405B-83C7-C615EDF0DDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5AB7A68-91CA-4C1E-86F7-C923D573C6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AB7A68-91CA-4C1E-86F7-C923D573C6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AB7A68-91CA-4C1E-86F7-C923D573C6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AB7A68-91CA-4C1E-86F7-C923D573C6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865011D1-FFD4-4824-B2C1-C3850E4F24B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865011D1-FFD4-4824-B2C1-C3850E4F24B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865011D1-FFD4-4824-B2C1-C3850E4F24B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865011D1-FFD4-4824-B2C1-C3850E4F24B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB0825D-A69B-4B10-AB8A-A4C8180C3A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB0825D-A69B-4B10-AB8A-A4C8180C3A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB0825D-A69B-4B10-AB8A-A4C8180C3A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB0825D-A69B-4B10-AB8A-A4C8180C3A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DD07FF-548F-4D35-B14C-F9F2B997A24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DD07FF-548F-4D35-B14C-F9F2B997A24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DD07FF-548F-4D35-B14C-F9F2B997A24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DD07FF-548F-4D35-B14C-F9F2B997A24E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E348AEBA-438B-405B-83C7-C615EDF0DDF9} = {E11AF76F-63BC-4F2C-A60C-CC381A9675FF}
+		{E5AB7A68-91CA-4C1E-86F7-C923D573C6F8} = {E11AF76F-63BC-4F2C-A60C-CC381A9675FF}
+		{865011D1-FFD4-4824-B2C1-C3850E4F24B6} = {0532DED2-432C-4E3E-8F5D-5D0EA337562D}
+		{3EB0825D-A69B-4B10-AB8A-A4C8180C3A8E} = {24A7A911-3D50-43E7-A5EA-E22213D6F0B4}
+		{94DD07FF-548F-4D35-B14C-F9F2B997A24E} = {1102916F-A0A2-45D6-A75A-B39A0E388445}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\EntLibContrib.Common.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
